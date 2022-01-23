@@ -1,0 +1,16 @@
+<application>
+  <component name="PluginAdvertiserExtensions">
+    <option name="localState">
+      <map>
+        <entry key="*.dart">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="Dart" />
+              <option name="myPluginName" value="Dart" />
+            </plugin>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</application>
