@@ -5,6 +5,10 @@
     <keyboard-shortcut first-keystroke="alt left" />
   </action>
   <action id="CopyElement" />
+  <action id="Debug">
+    <keyboard-shortcut first-keystroke="shift f9" />
+    <keyboard-shortcut first-keystroke="f5" />
+  </action>
   <action id="Diff.NextChange" />
   <action id="Diff.PrevChange" />
   <action id="Forward">
@@ -17,13 +21,14 @@
     <mouse-shortcut keystroke="control button1" />
     <keyboard-shortcut first-keystroke="alt g" />
   </action>
+  <action id="NextDiff" />
   <action id="NextTab" />
   <action id="PreviousTab" />
   <action id="Resume" />
   <action id="Run" />
-  <action id="RunToCursor">
-    <keyboard-shortcut first-keystroke="shift alt 9" />
-    <keyboard-shortcut first-keystroke="f5" />
+  <action id="RunClass">
+    <keyboard-shortcut first-keystroke="shift ctrl f10" />
+    <keyboard-shortcut first-keystroke="f7" />
   </action>
   <action id="StepInto">
     <keyboard-shortcut first-keystroke="f11" />
